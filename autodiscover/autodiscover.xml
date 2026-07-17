@@ -41,7 +41,7 @@
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
         <SSL>off</SSL>
-        <TLS>on</TLS>
+        <TLS>off</TLS>
         <LoginName>%EMAILADDRESS%</LoginName>
         <AuthRequired>on</AuthRequired>
       </Protocol>
