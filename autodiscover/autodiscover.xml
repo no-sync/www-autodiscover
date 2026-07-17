@@ -6,10 +6,9 @@
       <Action>settings</Action>
       <Protocol>
         <Type>IMAP</Type>
-        <Server>imap.example123.com</Server>
+        <Server>imap.stackmail.com</Server>
         <Port>993</Port>
         <DomainRequired>off</DomainRequired>
-        <LoginName></LoginName>
         <SPA>off</SPA>
         <SSL>on</SSL>
         <LoginName>%EMAILADDRESS%</LoginName>
@@ -17,10 +16,9 @@
       </Protocol>
       <Protocol>
         <Type>IMAP</Type>
-        <Server>imap.example123.com</Server>
+        <Server>imap.stackmail.com</Server>
         <Port>143</Port>
         <DomainRequired>off</DomainRequired>
-        <LoginName></LoginName>
         <SPA>off</SPA>
         <SSL>off</SSL>
         <LoginName>%EMAILADDRESS%</LoginName>
@@ -28,10 +26,9 @@
       </Protocol>
       <Protocol>
         <Type>POP3</Type>
-        <Server>pop3.example123.com</Server>
+        <Server>pop3.stackmail.com</Server>
         <Port>995</Port>
         <DomainRequired>off</DomainRequired>
-        <LoginName></LoginName>
         <SPA>off</SPA>
         <SSL>on</SSL>
         <LoginName>%EMAILADDRESS%</LoginName>
@@ -39,10 +36,9 @@
       </Protocol>
       <Protocol>
         <Type>POP3</Type>
-        <Server>pop3.example123.com</Server>
+        <Server>pop3.stackmail.com</Server>
         <Port>110</Port>
         <DomainRequired>off</DomainRequired>
-        <LoginName></LoginName>
         <SPA>off</SPA>
         <SSL>off</SSL>
         <TLS>on</TLS>
@@ -51,7 +47,7 @@
       </Protocol>
       <Protocol>
         <Type>SMTP</Type>
-        <Server>smtp.example123.com</Server>
+        <Server>smtp.stackmail.com</Server>
         <Port>465</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
@@ -61,7 +57,7 @@
       </Protocol>
       <Protocol>
         <Type>SMTP</Type>
-        <Server>smtp.example123.com</Server>
+        <Server>smtp.stackmail.com</Server>
         <Port>587</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
@@ -72,7 +68,7 @@
       </Protocol>
       <Protocol>
         <Type>SMTP</Type>
-        <Server>smtp.example123.com</Server>
+        <Server>smtp.stackmail.com</Server>
         <Port>25</Port>
         <DomainRequired>off</DomainRequired>
         <SPA>off</SPA>
