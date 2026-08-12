@@ -78,19 +78,6 @@
                <Type>SMTP</Type>
                <TTL>0</TTL>
                <Server>smtp.stackmail.com</Server>
-               <Port>587</Port>
-               <DomainRequired>off</DomainRequired>
-               <LoginName></LoginName>
-               <SPA>off</SPA>
-               <Encryption>TLS</Encryption>
-               <AuthRequired>on</AuthRequired>
-               <UsePOPAuth>off</UsePOPAuth>
-               <SMTPLast>off</SMTPLast>
-           </Protocol>
-           <Protocol>
-               <Type>SMTP</Type>
-               <TTL>0</TTL>
-               <Server>smtp.stackmail.com</Server>
                <Port>25</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
