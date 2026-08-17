@@ -7,7 +7,7 @@
            <Protocol>
                <Type>IMAP</Type>
                <TTL>0</TTL>
-               <Server>imap.stackmail.com</Server>
+               <Server>m-imap.easymailcontrol.com</Server>
                <Port>993</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
@@ -18,18 +18,18 @@
            <Protocol>
                <Type>IMAP</Type>
                <TTL>0</TTL>
-               <Server>imap.stackmail.com</Server>
+               <Server>m-imap.easymailcontrol.com</Server>
                <Port>143</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
                <SPA>off</SPA>
-               <SSL>off</SSL>
+               <SSL>on</SSL>
                <AuthRequired>on</AuthRequired>
            </Protocol>
            <Protocol>
                <Type>POP3</Type>
                <TTL>0</TTL>
-               <Server>pop3.stackmail.com</Server>
+               <Server>m-pop.easymailcontrol.com</Server>
                <Port>995</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
@@ -40,49 +40,23 @@
            <Protocol>
                <Type>POP3</Type>
                <TTL>0</TTL>
-               <Server>pop3.stackmail.com</Server>
+               <Server>m-pop.easymailcontrol.com</Server>
                <Port>110</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
                <SPA>off</SPA>
-               <SSL>off</SSL>
+               <SSL>on</SSL>
                <AuthRequired>on</AuthRequired>
            </Protocol>
            <Protocol>
                <Type>SMTP</Type>
                <TTL>0</TTL>
-               <Server>smtp.stackmail.com</Server>
-               <Port>465</Port>
-               <DomainRequired>off</DomainRequired>
-               <LoginName></LoginName>
-               <SPA>off</SPA>
-               <Encryption>SSL</Encryption>
-               <AuthRequired>on</AuthRequired>
-               <UsePOPAuth>off</UsePOPAuth>
-               <SMTPLast>off</SMTPLast>
-           </Protocol>
-           <Protocol>
-               <Type>SMTP</Type>
-               <TTL>0</TTL>
-               <Server>smtp.stackmail.com</Server>
+               <Server>m-smtp.easymailcontrol.com</Server>
                <Port>587</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
                <SPA>off</SPA>
-               <Encryption>TLS</Encryption>
-               <AuthRequired>on</AuthRequired>
-               <UsePOPAuth>off</UsePOPAuth>
-               <SMTPLast>off</SMTPLast>
-           </Protocol>
-           <Protocol>
-               <Type>SMTP</Type>
-               <TTL>0</TTL>
-               <Server>smtp.stackmail.com</Server>
-               <Port>25</Port>
-               <DomainRequired>off</DomainRequired>
-               <LoginName></LoginName>
-               <SPA>off</SPA>
-               <Encryption>None</Encryption>
+               <Encryption>SSL</Encryption>
                <AuthRequired>on</AuthRequired>
                <UsePOPAuth>off</UsePOPAuth>
                <SMTPLast>off</SMTPLast>
