@@ -7,7 +7,7 @@
            <Protocol>
                <Type>IMAP</Type>
                <TTL>0</TTL>
-               <Server>m-imap.easymailcontrol.com</Server>
+               <Server>imap.yandex.com</Server>
                <Port>993</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
@@ -16,32 +16,10 @@
                <AuthRequired>on</AuthRequired>
            </Protocol>
            <Protocol>
-               <Type>IMAP</Type>
-               <TTL>0</TTL>
-               <Server>m-imap.easymailcontrol.com</Server>
-               <Port>143</Port>
-               <DomainRequired>off</DomainRequired>
-               <LoginName></LoginName>
-               <SPA>off</SPA>
-               <SSL>on</SSL>
-               <AuthRequired>on</AuthRequired>
-           </Protocol>
-           <Protocol>
                <Type>POP3</Type>
                <TTL>0</TTL>
-               <Server>m-pop.easymailcontrol.com</Server>
+               <Server>pop.yandex.com</Server>
                <Port>995</Port>
-               <DomainRequired>off</DomainRequired>
-               <LoginName></LoginName>
-               <SPA>off</SPA>
-               <SSL>on</SSL>
-               <AuthRequired>on</AuthRequired>
-           </Protocol>
-           <Protocol>
-               <Type>POP3</Type>
-               <TTL>0</TTL>
-               <Server>m-pop.easymailcontrol.com</Server>
-               <Port>110</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
                <SPA>off</SPA>
@@ -51,15 +29,24 @@
            <Protocol>
                <Type>SMTP</Type>
                <TTL>0</TTL>
-               <Server>m-smtp.easymailcontrol.com</Server>
+               <Server>smtp.yandex.com</Server>
+               <Port>465</Port>
+               <DomainRequired>off</DomainRequired>
+               <LoginName></LoginName>
+               <SPA>off</SPA>
+               <SSL>on</SSL>
+               <AuthRequired>on</AuthRequired>
+           </Protocol>
+           <Protocol>
+               <Type>SMTP</Type>
+               <TTL>0</TTL>
+               <Server>smtp.yandex.com</Server>
                <Port>587</Port>
                <DomainRequired>off</DomainRequired>
                <LoginName></LoginName>
                <SPA>off</SPA>
-               <Encryption>SSL</Encryption>
+               <SSL>on</SSL>
                <AuthRequired>on</AuthRequired>
-               <UsePOPAuth>off</UsePOPAuth>
-               <SMTPLast>off</SMTPLast>
            </Protocol>   
        </Account>
    </Response>
